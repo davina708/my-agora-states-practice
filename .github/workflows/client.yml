@@ -14,8 +14,6 @@ jobs:
         working-directory: ./my-agora-states-client
       - name: Build
         run: npm run build
-        env:
-          CI: ""
         working-directory: ./my-agora-states-client
       - name: SHOW AWS CLI VERSION
         env:
